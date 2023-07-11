@@ -21,6 +21,7 @@ Codes to reproduce node classification results in Tables 3 & 8 are provided.
 
 **layer.py** has implementations of some models' graph convolution layers.
 
+[Code Basics](https://www.notion.so/0d2d52a87ed347b68ddcc9fb785e0f26?pvs=21)
 
 ## Run Code
 The code will run 100 trials of node classification on the designated dataset. The results for every trial will be printed every trial. The codes are saved in shell files in ./run folder.
