@@ -7,9 +7,6 @@ Codes to reproduce node classification results in Tables 3 & 8 are provided.
 ### Table 3
 ![image](https://github.com/syleeheal/AERO-GNN/assets/66083092/6b2850c6-20bd-471f-84b1-25414eecee64)
 
-### Table 8
-![image](https://github.com/syleeheal/AERO-GNN/assets/66083092/b2982c57-30ce-4b89-8790-8c022e4a3607)
-
 
 ## Basics
 **AERO-GNN** model code is in **model.py**. 
@@ -26,8 +23,8 @@ Codes to reproduce node classification results in Tables 3 & 8 are provided.
 
 
 ## Run Code
-The code will run 100 trials of node classification on the designated dataset. The results for every trial will be printed every trial. 
-### Running Cora
+The code will run 100 trials of node classification on the designated dataset. The results for every trial will be printed every trial. The codes are saved in shell files in ./run folder.
+### Example: Running Cora 
 ```bash
 python ./AERO-GNN/main.py --model aero --dataset chameleon --iterations 32 --dr 0.0001 --dr-prop 0.0001 --dropout 0.7 --add-dropout 0 --lambd 1.0 --num-layers 2
 ```
