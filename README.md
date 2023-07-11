@@ -11,6 +11,7 @@ Codes to reproduce node classification results in Tables 3 & 8 are provided.
 ## Basics
 **AERO-GNN** model code is in _**model.py**_.  \
 **Tuned hyperparameters** for all models are written in shell files in _**./run/model_name**_. 
+**Datasts** are in _**./graph-data**_, which should be automatically downloaded when running the code.
 
 _**main.py**_ loads datasets, initializes hyperparameters, and runs the entire codes. \
 _**train_dense.py**_ and _**train_sparse.py**_ load, train, and evaluate designated GNNs for node classification. \
@@ -25,6 +26,12 @@ The code will run 100 trials of node classification on the designated dataset. T
 ```bash
 python ./AERO-GNN/main.py --model aero --dataset chameleon --iterations 32 --dr 0.0001 --dr-prop 0.0001 --dropout 0.7 --add-dropout 0 --lambd 1.0 --num-layers 2
 ```
+
+
+## Datasets
+Running main.py will automatically download the designated datasets from PyG (https://pytorch-geometric.readthedocs.io/en/latest/modules/datasets.html). \
+The codes to load the filtered **Chameleon** and **Squirrel** datasets, proposed by Platonov et al. (2023, ICLR, https://arxiv.org/pdf/2302.11640.pdf), are in _**filtered_dataset.py**_. \
+The loading and preprocessing code for each dataset is in _**utils.py**_. 
 
 
 ## Requirements
