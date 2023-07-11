@@ -22,7 +22,7 @@ class Filtered_Dataset:
                              'use_sgc_features, use_identity_features, use_adjacency_features should be used.')
 
         print('Preparing data...')
-        data = np.load(os.path.join('./HeterophilousDatasets-main/data', f'{name.replace("-", "_")}.npz'))
+        data = np.load(os.path.join('./graph-data', f'{name.replace("-", "_")}.npz'))
         node_features = torch.tensor(data['node_features'])
         labels = torch.tensor(data['node_labels'])
         edges = torch.tensor(data['edges'])
