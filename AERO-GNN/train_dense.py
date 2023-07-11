@@ -139,7 +139,7 @@ class Trainer(object):
     def fit(self):
         
         acc = []
-        seeds = torch.load('./AERO-GNN/seeds_100.pt')
+        seeds = torch.load('./seeds_100.pt')
 
         for _ in range(self.args.exp_num):
 
