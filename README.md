@@ -9,19 +9,15 @@ Codes to reproduce node classification results in Tables 3 & 8 are provided.
 
 
 ## Basics
-**AERO-GNN** model code is in **model.py**. 
+**AERO-GNN** model code is in _**model.py**_.  \
+**Tuned hyperparameters** for all models are written in shell files in _**./run/model_name**_. 
 
-**Tuned hyperparameters** for all models are written in shell files in ./run/model_name.
+_**main.py**_ loads datasets, initializes hyperparameters, and runs the entire codes. \
+_**train_dense.py**_ and _**train_sparse.py**_ load, train, and evaluate designated GNNs for node classification. \
+_**model.py**_ has all the models used for experiments. \
+_**layer.py**_ has implementations of some models' graph convolution layers. \
+_**seeds_100.pt**_ has 100 seeds we used for experiments.
 
-**main.py** loads datasets and initializes hyperparameters.
-
-**train_dense.py** and **train_sparse.py** load, train, and evaluate GNNs for node classification.
-
-**model.py** has all the models used for experiments.
-
-**layer.py** has implementations of some models' graph convolution layers.
-
-[Code Basics](https://www.notion.so/0d2d52a87ed347b68ddcc9fb785e0f26?pvs=21)
 
 ## Run Code
 The code will run 100 trials of node classification on the designated dataset. The results for every trial will be printed every trial. The codes are saved in shell files in ./run folder.
@@ -43,6 +39,7 @@ torch_sparse==0.6.13
 tqdm==4.62.3
 ```
 
+
 ## Bibtex
 ```latex
 @inproceedings{lee2023towards,
@@ -53,6 +50,7 @@ tqdm==4.62.3
   organization={PMLR}
 }
 ```
+
 
 ## Contacts
 For any question, please email us ({syleetolow, boqvezen97, kijungs}@kaist.ac.kr, {jaeminyoo}@cmu.edu)! 
