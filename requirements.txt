@@ -1,0 +1,10 @@
+data==0.4
+datasets==2.0.0
+dgl==1.1.1
+dgl_cu113==0.9.1.post1
+numpy==1.21.2
+torch==1.11.0+cu113
+torch_geometric==2.1.0
+torch_scatter==2.0.9
+torch_sparse==0.6.13
+tqdm==4.62.3
