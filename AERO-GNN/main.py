@@ -55,7 +55,7 @@ def main():
 
 
     # sparse labeled training
-    if args.dataset in ['cora', 'citeseer', 'wiki', 'pubmed', 'photo', 'computer',]:
+    if args.dataset in ['cora', 'citeseer', 'wiki', 'pubmed', 'photo', 'computers',]:
         args.epochs  = 2000
         args.early_stopping_rounds = 100
         args.lr = 0.01
