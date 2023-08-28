@@ -1,7 +1,10 @@
 # AERO-GNN
 
-This is the official repository of "[Towards Deep Attention in Graph Neural Networks: Problems and Remedies](https://arxiv.org/pdf/2306.02376.pdf)," published in ICML 2023. \
-Codes to reproduce node classification results in Tables 3 & 8 are provided. 
+This is the official repository of "[Towards Deep Attention in Graph Neural Networks: Problems and Remedies](https://arxiv.org/abs/2306.02376)," published in ICML 2023. \
+Codes to reproduce node classification results in Tables 3 & 8 are provided. \
+\
+Also, Poster.pdf is the poster file presented @ICML23, with some additional visualizations from the original paper. \
+The link to my video presentation is [here](https://www.youtube.com/watch?v=LbTuet6K-so&ab_channel=KAISTDataMiningLab). 
 
 ### Table 3
 ![image](https://github.com/syleeheal/AERO-GNN/assets/66083092/6b2850c6-20bd-471f-84b1-25414eecee64)
