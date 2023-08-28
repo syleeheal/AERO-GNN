@@ -17,7 +17,7 @@ def parameter_parser():
     parser.add_argument("--dataset", type=str, default="Cora",)
 
     """EXPERIMENT"""
-    parser.add_argument("--exp-num", type=int, default=10)
+    parser.add_argument("--exp-num", type=int, default=100)
     parser.add_argument("--model", type=str, default="aero")
     parser.add_argument("--early-stopping-rounds", type=int, default=100, )
     parser.add_argument("--device", nargs="?", default="cuda:4", )
