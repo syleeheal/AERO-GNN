@@ -1,6 +1,6 @@
 # AERO-GNN
 
-This is the official repository of "[Towards Deep Attention in Graph Neural Networks: Problems and Remedies](https://arxiv.org/abs/2306.02376)," published in ICML 2023. \
+This is the code repository of "[Towards Deep Attention in Graph Neural Networks: Problems and Remedies](https://arxiv.org/abs/2306.02376)," published in ICML 2023. \
 Codes to reproduce node classification results in Tables 3 & 8 are provided. \
 \
 Also, Poster.pdf is the poster file presented @ICML23, with some additional visualizations from the original paper. \
