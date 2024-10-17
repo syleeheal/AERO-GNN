@@ -117,7 +117,7 @@ class Filtered_Dataset:
             node_features = torch.tensor([[] for _ in range(n)])
 
         if use_sgc_features:
-            sgc_features = Dataset.compute_sgc_features(graph, original_node_features)
+            sgc_features = Filtered_Dataset.compute_sgc_features(graph, original_node_features)
             node_features = torch.cat([node_features, sgc_features], axis=1)
 
         if use_identity_features:
