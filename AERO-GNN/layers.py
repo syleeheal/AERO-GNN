@@ -127,7 +127,7 @@ class FA_Conv(MessagePassing):
 class MixHopConv(nn.Module):
     """ Our MixHop layer """
     def __init__(self, in_channels, out_channels, hops=2):
-        super(MixHopLayer, self).__init__()
+        super(MixHopConv, self).__init__()
         self.hops = hops
         self.lins = nn.ModuleList()
         for hop in range(self.hops+1):

@@ -1,4 +1,4 @@
-python ./AERO-GNN/main.py --model adgn --dataset cora --iterations 4 --alpha 0.1 --lambd 1.0 --dr 0.0005 --dr1 0.0005 --dropout 0.5
+python ./AERO-GNN/main.py --model adgn --dataset cora --iterations 4 --alpha 0.1 --lambd 1.0 --dr 0.0005 --dr-prop 0.0005 --dropout 0.5
 python ./AERO-GNN/main.py --model adgn --dataset citeseer --iterations 16 --alpha 0.01 --lambd 0.1 --dr 0.001 --dr-prop 0.0005 --dropout 0.3
 python ./AERO-GNN/main.py --model adgn --dataset pubmed --iterations 8 --alpha 0.1 --lambd 0.001 --dr 0.001 --dr-prop 0.005 --dropout 0.5 
 python ./AERO-GNN/main.py --model adgn --dataset wiki --iterations 16 --alpha 0.1 --lambd 0.01 --dr 0.0005 --dr-prop 0.0005 --dropout 0.7 
